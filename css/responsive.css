@@ -1,0 +1,619 @@
+
+/* Responsive Design */
+
+
+@media (max-width:1199px){
+
+  .social-icon-item a i, .social-icon-item a img{
+    /* font-size: 3rem;
+    color: #1DBF73;
+    background: #ffffff;
+    border-radius: 50%;
+    padding-top: 2rem;
+    text-align: center;
+    width: 7rem;
+    height: 7rem;
+    margin: 1rem; */
+  }
+  /* .social-sec{
+    border-right: none;
+  } */
+
+}
+
+@media (max-width:1030px){
+  .contact-left{
+    padding: 2.2rem;
+
+  }
+}
+
+
+    @media (max-width:991px){
+        /*  ================================================
+        :: 3.0 COMMON CSS
+        ================================================ */
+        
+        /*  ================================================
+        :: 4.0 HEADER CSS
+        ================================================ */
+
+          /* 2 Navbar */
+
+        .navbar-collapse  {
+            /* background:var(--bg-white); */
+            background: #111111;
+            border-radius: 0.288rem;
+            text-align: center;
+        }
+
+        .navbar-toggler .fa-bars{
+            color: #dddddd;
+            font-size: 1.7rem;
+        }
+
+
+        .first-header-btn1{
+            margin: 1.6rem;;
+            /* margin-bottom:20px; */
+        }
+        .header_wrapper .nav-item {
+            margin: 0 0;
+            line-height: 1.4rem;
+        }
+
+         .header-scrolled {
+            height: auto;
+        }
+    
+    
+        .header_wrapper .nav-item .nav-link {
+            margin-top: 10px;
+        }
+
+          /* 2 banner */
+
+        .right-banner-item{
+            margin-top: 60px;
+        }
+
+        .banner_wrapper .console-container h1{
+            font-size: 3rem;
+            line-height: 5rem;
+        }
+
+
+        h3 {
+            /* font-size: 20px; */
+        }
+    
+    
+        /* About */
+
+        .about_wrapper ul.nav-pills {
+          border: none;
+      }
+
+        .about_wrapper ul li .nav-link {
+          font-size: 0.875rem;
+          padding:0.625rem 1rem 0.625rem 1rem;
+          /* padding:0.625rem 1rem 0.8525rem 1rem; */
+      }
+
+      .about_wrapper ul li .nav-link1, .about_wrapper ul li .nav-link2, .about_wrapper ul li .nav-link3{
+        border-radius: 0.5rem ;
+    }
+    /* .about_wrapper ul li .nav-link2{
+        border-radius: 0;
+    }
+    .about_wrapper ul li .nav-link3{
+        border-radius: 0 0.5rem 0.5rem 0;
+    } */
+
+        .about_wrapper ul.nav-pills{
+            width:61%;
+            margin:auto;
+        }
+
+        /* service */
+
+        .service-up-style{
+            margin-top: 100px !important;
+            margin-right: 0px;
+        }
+
+        /* Process */
+
+        .features-items .features-item5{
+            margin-top: 20px !important;
+        }
+
+        /* portfolio */
+        .portfolio_wrapper .card {
+            min-height: 400px !important;
+        }
+
+        /* footer */
+
+        .footer-section .find-me h2{
+          font-size:2.5rem;
+        }
+
+        .social-icon-item a i{
+          margin: 1.5rem;
+        }
+    
+        
+       
+         
+    }
+
+
+    @media (max-width: 767px) {
+
+        /* Navber */
+
+        .navbar-toggler .fa-bars{
+            font-size: 1.2rem;
+        }
+
+        /* Banner css */
+        .main-text-sec .main-back-text{
+            font-size: 5.5rem !important;
+        }
+        .main-text-sec .main-front-text{
+            font-size: 1.8rem;
+        }
+    
+    
+        p {
+            font-size: 14px;
+            line-height: 24px;
+        }
+
+        .common-heading{
+            margin-bottom: 0px;
+        }
+
+        .header_wrapper .nav-item {
+            line-height: 1.2rem;
+        }
+    
+        /* About */
+        .about_wrapper ul.nav-pills{
+            width:100%;
+            margin:auto;
+            border:0;
+        }
+        .about_wrapper ul li .nav-link {
+            font-size: 13px;
+        } 
+        
+    
+        /* Carousel Slider */
+
+        .three-d-button ul li a .slider-img{
+            height: 100px;
+            width: 100px;
+          }
+          
+          .three-d-button ul li a{
+            width: 130px;
+            height: 125px !important;
+          }
+
+          /* Service */
+
+          .card .service-card .service-icon span i{
+            font-size: 3rem;
+            margin-bottom: 1.8rem;
+          }
+
+        /* portfolio */
+        
+        /* .portfolio_wrapper .card {
+            min-height: 500px;
+        } */
+
+        /* FAQ's */
+        .faq-section .faq-sec{
+            margin-top:1rem !important;
+          }
+
+        .custom-accordion .accordion-item .btn-link {
+            font-size: 1.4rem !important;
+          }
+          /* .accordion-body {
+            font-size: 1.1rem;
+          } */
+          .custom-accordion .accordion-item .accordion-body {
+            font-size: 1.0125rem;
+          }
+      
+
+          /* Contact */
+
+          .button-area .submit-btn{
+            width: 50%;
+          }
+
+          /* footer */
+
+          .footer-section .find-me h2{
+            letter-spacing: 5px;
+            font-size: 2.2rem;
+          }
+
+          .social-icon-item a i{
+            font-size: 2rem;
+            padding-top: 1.2rem;
+            width: 4.5rem;
+            height: 4.5rem;
+            margin: 1rem;
+          }
+
+    } 
+
+
+
+    
+/* @media (max-width: 600px){
+    .wrapper header{
+      text-align: center;
+    }
+    .wrapper form{
+      margin: 35px 20px;
+    }
+    form .dbl-field{
+      flex-direction: column;
+      margin-bottom: 0px;
+    }
+    form .dbl-field .field{
+      width: 100%;
+      height: 45px;
+      margin-bottom: 20px;
+    }
+    form .message textarea{
+      resize: none;
+    }
+    form .button-area{
+      margin-top: 20px;
+      flex-direction: column;
+    }
+    .button-area button{
+      width: 100%;
+      padding: 11px 0;
+      font-size: 16px;
+    }
+    .button-area span{
+      margin: 20px 0 0;
+      text-align: center;
+    }
+  } */
+  
+    
+
+
+    @media (max-width:550px){
+
+        /* Navber */
+
+        .header_wrapper .navbar-brand img {
+            max-width: 90px;
+        }
+
+            /* Banner */
+
+        .banner_wrapper .console-container h1{
+            font-family: "Roboto", sans-serif !important;
+            font-size: 2rem;
+            line-height: 3rem;
+        }
+
+        .main-text-sec .main-back-text{
+            font-size: 4.2rem !important;
+        }
+        .main-text-sec .main-front-text{
+            font-size: 1.5rem;
+        }
+
+        /* FAQ's */
+
+        .faq-section .faq-sec{
+            margin-top:0.3rem !important;
+          }
+
+        .custom-accordion .accordion-item .btn-link {
+            font-size: 1.1rem !important;
+            padding-left: 3rem;
+          }
+          .accordion-body {
+            /* font-size: 0.9rem; */
+          }
+          .custom-accordion .accordion-item .accordion-body {
+            font-size: 0.925rem;
+          }
+          /* Contact */
+
+          .button-area .submit-btn{
+            width: 100%;
+            font-size: 1rem;
+          }
+
+           /* footer */
+
+           .footer-section .find-me h2{
+            font-size:2rem;
+          }
+
+           .social-icon-item a i{
+            font-size: 2rem;
+            padding-top: 1rem;
+            width: 4rem;
+            height: 4rem;
+            margin: 0.5rem;
+          }
+       
+
+
+    }
+
+    @media (max-width:430px){
+
+      h3 {
+        font-size: 1.125rem;
+    }
+
+        p {
+            font-size: 0.8125rem;
+            line-height: 1.5rem;
+        }
+
+        .main-btn{
+          padding: 0.825rem 1.5rem;
+          font-size: 0.75rem;
+        }
+
+        /* Navber */
+
+        .header_wrapper .nav-item .nav-link {
+            font-size: 16px;
+        }
+
+        .main-text-sec .main-back-text{
+            font-size: 2.6rem !important;
+            letter-spacing: 2px;
+        }
+        .main-text-sec .main-front-text{
+            font-size: 1rem;
+            letter-spacing: 2px;
+        }
+        .main-text-sec .heading-bottom-line{
+          width: 4rem;
+           height: 2px !important;
+      }
+
+           /* Banner */
+
+           .banner-icon h5{
+            font-size: 1.2rem;
+          }
+          .banner-icon .banner-social-icon-1 img{
+            background: #ffffff;
+            width: 3.3rem;
+            height: 3.3rem;
+            margin: 1.5rem 1.2rem 0 0;
+            padding: 0.5rem;
+            border-radius: 50%;
+            transition: all 0.4s ease-in;
+          }
+
+          /* Carousel Slider */
+
+        .three-d-button ul li a .slider-img{
+            height: 60px;
+            width: 60px;
+          }
+          
+          .three-d-button ul li a{
+            width: 100px;
+            height: 90px !important;
+          }
+          .three-d-button{
+            margin-left: 35px;
+        }
+
+        .client-slider-section .three-d-button{
+            width:auto !important;
+            height:150px;
+          }
+          .carousel-slider{
+            padding-top: 20px;
+        }
+
+        /* About */
+
+        .about_wrapper{
+            padding: 50px 0;
+        }
+
+        /* Process */
+
+        .process-item .process-card .process-icon span i{
+          font-size: 1.7rem;
+          height: 65px;
+            width: 65px;
+            line-height: 65px;
+        }
+
+        /* Portfolio */
+
+        .portfolio-btn{
+            font-size: 0.633rem;
+        }
+
+        /* Pricing */
+
+        .pricing-item .card .card-body .price-style{
+          font-size: 0.95rem;
+        width: 7.625rem;
+        padding: 0.625rem;
+        /* left: 5rem; */
+        top: 2.575rem;
+        /* right: -1.5rem; */
+        }
+        .pricing-item .card .card-body .price-style:before{
+        padding: 0.825rem;
+        top: 0.3725rem;
+        left: -0.825rem;
+        }
+
+        .pricing-item .card .card-body .price-amount .discount{
+          font-size: 1.2rem;
+        }
+        .pricing-item .card .card-body .price-amount h2{
+          font-size: 2.4rem;
+        }
+        .pricing-item .card .card-body .price-amount h2 .doler-sine{
+          font-size: 1.7rem;
+        }
+        .pricing-item .card .card-body ul li i{
+          margin-right: 0.5rem;
+          font-size: 1rem;
+        }
+
+        .pricing-item .card .card-body ul li{
+          color: #ffffff;
+          font-size: 0.8rem;
+          line-height: 1.8rem;
+        }
+
+        /* FAQ's */
+
+        .custom-accordion .accordion-item .btn-link {
+            font-size: 1rem !important;
+          }
+          .custom-accordion .accordion-item .accordion-body {
+            font-size: 0.825rem;
+          }
+
+          /* Contact */
+
+          .contact-left{
+            padding: 1.8rem;
+          }
+          .contact-left .contact-left-item .contact-icon-text .contact-text{
+            font-size:0.7rem;
+            letter-spacing: 0.5px;
+            margin-top: 0.5rem;
+          }
+
+          .contact-right{
+            padding: 1.8rem;
+          }
+          .contact-right form .message .form-control{
+            min-height: 7rem;
+            }
+
+         .contact-right form .field .form-control,
+         .contact-right form .message .form-control{
+          font-size: 0.7rem;
+         }
+         form .field  i, form .message  i{
+          top: 0.9rem;
+          left: 1rem;
+          font-size: 0.9rem;
+        }
+
+            /* footer */
+
+            .footer-section .find-me h2{
+              font-size:1.8rem;
+            }
+
+            /* .social-icon-item a i, .social-icon-item a img{
+              font-size: 2rem;
+              padding-top: 1rem;
+              width: 4rem;
+              height: 4rem;
+              margin: 0.5rem;
+            } */
+
+
+            
+
+          
+
+        
+    }
+
+
+    @media (max-width:330px){
+
+        /* Banner */
+        .banner_wrapper .console-container h1{
+            font-size: 1.7rem;
+            line-height: 2.8rem;
+        }
+
+        /* Carousel Slider */
+
+        .three-d-button{
+            margin-left: 25px;
+        }
+
+        /* FAQ */
+
+        .custom-accordion{
+          padding:1.215rem;
+        }
+
+         /* Contact */
+
+         .contact-left{
+          padding: 1.4rem;
+        }
+
+        .contact-left .contact-left-item .contact-icon-text .fas{
+          font-size: 1rem;
+      width: 2.2rem;
+      height: 2.2rem;
+      padding-top: 0.6rem;
+      margin-right: 0.625rem;
+        }
+        .contact-left .contact-left-item .contact-icon-text .contact-text{
+          font-size:0.625rem;
+          letter-spacing: 0.25px;
+          margin-top: 0.5rem;
+        }
+        .contact-left .contact-left-item .contact-icon-text .text:hover{
+          letter-spacing: 0.125px;
+        }
+
+        .contact-right{
+          padding: 1.4rem;
+        }
+        .contact-right form .message .form-control{
+          min-height: 7rem;
+          }
+
+          /* Footer */
+
+          .footer-section .find-me h2{
+            font-size: 1.4rem;
+          }
+
+          .social-icon-item a i{
+            font-size: 2rem;
+            padding-top: 1rem;
+            width: 4rem;
+            height: 4rem;
+            margin: 1rem;
+          }
+
+
+    }
+
+
+    
+    
